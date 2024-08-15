@@ -1,24 +1,23 @@
 # mu-front
 
-## Project setup
+## 프로젝트 세팅
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### 개발 서버 실행
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
+스프링부트 서버 ( adapter-admin )을 실행한 후에 실행해야 합니다.
 
-### Lints and fixes files
-```
-npm run lint
-```
+### 구현 내용
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+메인 홈 좌측 메뉴 탭으로 각 페이지 이동할 수 있습니다.
+
+- 브랜드 관리 : 브랜드 등록/수정/조회/삭제
+- 상품 관리 : 상품 등록/수정/조회/삭제
+- 카테고리 관리 : 카테고리 등록/수정/조회/삭제
+
+서버 API 동작 확인을 위한 최소한의 기능과 UI만 구현되어 있습니다.
